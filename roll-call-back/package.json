@@ -1,0 +1,18 @@
+{
+  "name": "roll-call-back",
+  "version": "1.0.0",
+  "description": "点名系统后端",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "点名",
+    "高校"
+  ],
+  "author": "李翔",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.14.2"
+  }
+}
