@@ -4,7 +4,9 @@
   "description": "点名系统后端",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "init_sql": "node ./init/index.js",
+    "dev": "nodemon --harmony ./app",
+    "start": "node ./app.js"
   },
   "keywords": [
     "点名",
@@ -13,6 +15,13 @@
   "author": "李翔",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.14.2"
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-logger": "^3.2.1",
+    "koa-mysql-session": "^0.0.2",
+    "koa-router": "^12.0.1",
+    "koa-session-minimal": "^4.0.3",
+    "nodemon": "^3.0.2",
+    "validator": "^13.11.0"
   }
 }
