@@ -1,13 +1,13 @@
-const userInfoService = require('./../services/user')
-const userCode = require('./../codes/user')
+const uploadService = require('../services/upload')
+const uploadCode = require('../codes/upload.js')
 
 module.exports = {
 
   /**
-   * 登录操作
+   * 上传操作
    * @param  {obejct} ctx 上下文对象
    */
-  async signIn( ctx ) {
+  async upload( ctx ) {
     let formData = ctx.request.body
     let result = {
       success: false,

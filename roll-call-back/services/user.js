@@ -73,7 +73,6 @@
        success: false,
        message: '',
      }
-     console.log(userInfo);
      if ( !/[0-9]{5,16}/.test(userInfo.userName)) {
        result.message = userCode.ERROR_USER_NAME
        return result
